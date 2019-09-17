@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1024px;
+    margin: 0px auto;
+}
+#header{
+    width: 1024px;
+    height: 200px;
+}
+
+div.contact{
+    width: 1024px;
+    background: #e5e5e5;
+    height: 30px;
+}
+
+div.contact li {
+    list-style: none;
+    float: left;
+    
+}
+
+div.contact li a{
+    height: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid rgba(0, 0, 0, 0.863); 
+}
+div.contact li a:hover{
+    color: red;
+}
+
+div.contact span{
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 20px 0px 20px;
+}
+
+div.main-header{
+    clear: both;
+    width: 1024px;
+    height: 120px;
+}
+div.main-header div{
+    float: left;
+}
+div.main-header .chu{
+    height:80px;
+    padding-top: 40px;
+}
+div.main-header .cot1{
+    /* background: lightgreen; */
+    width: 200px;
+    height: 120px;
+    
+}
+div.main-header .cot1 .tren{
+    font-weight: bold;
+    font-size: 20px;
+}
+div.main-header .cot2{
+  
+   /* background: lightpink; */
+   width: 460px;
+   padding-left:40px ;
+   height: 110px;
+   padding-top:10px;
+}
+div.main-header .cot2 .input {
+    width: 420px;
+    height: 70px;
+    padding-top:30px; 
+    padding-left:20px;
+}
+div.main-header .cot2 .input input{
+    width: 360px;
+    height: 40px;
+    border: 2px solid blue;
+    float: left;
+}
+/* div.main-header .cot2 .input div{
+    width:52px;
+    height: 40px;
+    border: 2px solid blue;
+    background: blue;
+} */
+div.main-header .cot2 .input div img{
+    height: 45px;
+}
+div.main-header .cot2 .input div:hover{
+    cursor: pointer;
+}
+div.main-header .cot3 {
+    height:120px;
+    width: 323px;
+    /* background: lightsalmon; */
+
+}
+div.main-header .cot3 ul li{
+    height: 120px;
+    list-style: none;
+    float: left;
+    line-height: 120px;
+}
+
+div.main-header .cot3 ul li a{
+    text-decoration: none;
+    height: 120px;
+    padding: 0px 20px 0px 20px;
+    font-weight: bold;
+}
+div.main-header .cot3 ul li a:hover{
+    color: red;
+}
+div.navbar{
+    clear: left;
+    width: 1024px;
+    height: 50px;
+    /* background: lightskyblue; */
+}
+
+div.navbar >div{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    background: lightskyblue;
+    padding-right:60px; 
+    padding-left:20px;
+}
+div.navbar >ul >li{
+    float: left;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    
+}
+div.navbar >ul >li >a{
+    text-decoration: none;
+    padding: 0px 20px 0px 20px; 
+    border-right:1px solid black;
+}
+div.navbar >ul >li >a:hover{
+    color: red;
+}
+div.navbar .submenu{
+    display: none;
+    width:100px; 
+    position: absolute;
+
+}
+div.navbar .submenu li {
+    clear: left;
+    border: 1px solid black;
+    background: lightblue; 
+    width: 120px;
+    height: 30px;
+    list-style: none;
+    line-height: 30px;
+    
+}
+div.navbar .submenu li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 20px 0px 20px;
+}
+div.navbar li:hover .submenu{
+    display: block;
+}
+div.navbar  .submenu li:hover{
+    background: lightgreen;
+    
+}
+
+
+div.main{
+    width: 100%;
+}
+div.main .danhmuc{
+    float: left;
+    width: 252px;
+}
+div.main .danhmuc >ul >li{
+    position: relative;
+    padding:0px 60px 0px 60px;
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid black;
+    background: #e5e5e5;
+}
+div.main .danhmuc >ul >li:hover{
+    background: lightskyblue;
+}
+div.main .danhmuc >ul >li >a{
+    text-decoration: none;
+    height: 40px;
+    width: 200px;
+    display: block;
+}
+
+div.main .danhmuc .submenu{
+    position: absolute;
+    width: 200px;
+    background: #e5e5e5;
+    top:0px;
+    left: 250px;
+    display: none;
+}
+div.main .danhmuc .submenu li{
+    list-style: none;
+    border: 1px solid black;
+    
+}
+div.main .danhmuc .submenu li:hover{
+    background: lightskyblue;
+}
+div.main .danhmuc .submenu li a{
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    padding: 0px 40px 0px 40px;
+}
+div.main .danhmuc >ul>li:hover .submenu{
+    display: block;
+}
+
+div.main .sanpham{
+    float: left;
+}
+div.main .sanpham img{
+    width: 600px;
+}
+
+div.main .quangcao{
+    width: 170px;
+    float: left;
+}
+div.main .quangcao img{
+    width: 170px;
+    float: left;
+}
+div.footer{
+    clear: both;
+    width: 1024px;
+    height: 100px;
+    background: #e5e5e5;
+    padding-top:40px; 
+}
+div.footer div{
+    padding-left: 10px;
+    float: left;
+    width: 242px;
+    border-right:1px solid black;
+    text-align: center;
+}
+
+div.footer div img {
+    float: left;
+}
+div.footer .end{
+    border-right:none; 
+}
+div.footer div h3:hover{
+    color: red;
+    cursor: pointer;
+}
